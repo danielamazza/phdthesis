@@ -1,0 +1,105 @@
+baseURL = "https://danielamazza.github.io/phdthesis/"
+theme = "hugo-material-docs"
+languageCode = "en-us"
+title = "Resources Optimization for Distributed Mobile Platforms in Smart Cities"
+
+[params]
+  # General information
+  author = "Daniela Mazza"
+  description = "My PhD thesis 2016"
+  copyright = "Released under the MIT license"
+  enableEmoji = true
+
+  # Repository
+  provider = "GitHub"
+  repo_url = "https://github.com/danielamazza/phdthesis"
+
+	logo = "images/logo.png"
+	favicon = "images/favicon.ico"
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "red"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = "danimaz_bo"
+	github  = "danielamazza"
+	email   = "danielamazza@gmail.com"
+
+
+[[menu.main]]
+	name   = "Material"
+	url    = "/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Abstract"
+	url    = "abstract/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Introduction"
+	url    = "introduction/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Original Contributions"
+	url    = "contribution/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Publications"
+	url    = "publication/"
+	weight = 40
+
+[[menu.main]]
+	name   = "Acknowledgments"
+	url    = "acknowledgments/"
+	weight = 50
+
+[[menu.main]]
+	name   = "Part 1"
+	url    = "part1/"
+	weight = 60
+
+[[menu.main]]
+	name   = ">> Chapter 1"
+	url    = "part1/chap1/"
+	weight = 70
+	
+[[menu.main]]
+	name   = "Part 2"
+	url    = "part2/"
+	weight = 80	
+	
+[[menu.main]]
+	name   = ">> Chapter 2"
+	url    = "part2/chap2/"
+	weight = 90	
+
+[[menu.main]]
+	name   = "Prova"
+	url    = "prova/"
+	weight = 100
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
+	hrefTargetBlank = true
